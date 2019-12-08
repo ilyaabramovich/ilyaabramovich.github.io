@@ -61,6 +61,10 @@ p {
   }
 }
 
+.main {
+  padding: 0 1.5rem;
+}
+
 .header {
   margin-bottom: 1.875rem;
 }
