@@ -55,12 +55,6 @@ p {
   font-size: 1.125rem;
 }
 
-@media (max-width: 360px) {
-  body {
-    font-size: 12px;
-  }
-}
-
 .main {
   padding: 0 1.5rem;
 }
