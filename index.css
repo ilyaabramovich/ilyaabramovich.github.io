@@ -1,0 +1,33 @@
+:root {
+  --font-size: 20px;
+  --line-height: 1.4;
+}
+
+:root {
+  --color-bg: #F5F5F5;
+  --color-text: #000805;
+  --color-link: #824e8e;
+}
+
+.page {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.page__body {
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  font-family: Rubik, sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+a {
+  color: var(--color-link);
+}
+
+@media (max-width: 600px) {
+  :root {
+    --font-size: 18px;
+  }
+}
