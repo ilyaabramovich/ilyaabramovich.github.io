@@ -6,7 +6,7 @@
 :root {
   --color-bg: #F5F5F5;
   --color-text: #000805;
-  --color-link: #824e8e;
+  --color-accent: #824e8e;
 }
 
 .page {
@@ -23,7 +23,7 @@
 }
 
 a {
-  color: var(--color-link);
+  color: var(--color-accent);
 }
 
 @media (max-width: 600px) {
