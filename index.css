@@ -4,8 +4,10 @@
   --color-accent: #824e8e;
   --color-green: #00FA9A;
   --color-blue: #0069CC;
+  --font-family: Rubik, sans-serif;
   --font-size: 20px;
   --line-height: 1.4;
+  --viewport-padding: 32px;
 }
 
 :root {
@@ -22,13 +24,23 @@
 .page__body {
   font-size: var(--font-size);
   line-height: var(--line-height);
-  font-family: Rubik, sans-serif;
-  display: grid;
-  place-items: center;
+  font-family: var(--font-family);
+  padding: var(--viewport-padding);
+}
+
+.footer__list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
 }
 
 a {
   color: var(--color-accent);
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 :focus-visible {
@@ -40,5 +52,6 @@ a {
 @media (max-width: 600px) {
   :root {
     --font-size: 18px;
+    --viewport-padding: 24px;
   }
 }
